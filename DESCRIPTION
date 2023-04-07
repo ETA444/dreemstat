@@ -1,0 +1,11 @@
+Package: dreemstat
+Type: Package
+Title: A compilation of custom R functions related to data science designed to make your work easier.
+Version: 0.1.0
+Author: George Dreemer (ETA444)
+Maintainer: George Dreemer (ETA444) <penpal@dreemcorp.com>
+Description: Includes functions such as varselector(), outlier_check() and many more.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: caret, stats
