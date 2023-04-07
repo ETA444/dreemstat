@@ -1,4 +1,4 @@
-varselector4 <- function (df,y,cv,lambda,alpha,model_id = NULL,mode = NULL,split = NULL) {
+varselector <- function (df,y,cv,lambda,alpha,model_id = NULL,mode = NULL,split = NULL) {
 
   # (Specify default values)["mode","split","model_id"]
   mode <- ifelse(is.null(mode),"all",mode) #if "mode" is not specified assign "all"
